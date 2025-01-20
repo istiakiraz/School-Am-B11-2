@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-basic-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+
+  header{
+    max-width: 1440px;
+    margin: 0 auto;
+    border-bottom: 2px dashed  rgb(218, 216, 216);
+  }
+  
+  .content-section{
+    max-width: 1158.61px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+
+  /* nav bar styles */
+
+  .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+  }
+
+  .nav-h{
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+
+  .nav-section{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+
+  a{
+    text-decoration: none
+  }
+  /* section-menu */
+  .home-menu{
+    color: rgb(254, 163, 1);
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .About-menu{
+    color: rgb(1, 172, 253);
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .Facilities-menu{
+    color: rgb(5, 212, 223);
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .Admission--menu{
+    color: rgb(93, 88, 239);
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .nav-btn{
+    
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    width: 197px;
+    height: 50px;
+    padding: 7px;
+    cursor: pointer;
+    border: none;
+    }
+
+    /* header section styles */
+    .header-section{
+        display: flex;
+        align-items: center;
+        margin-top: 18px;
+        gap: 50px;
+        margin-bottom: 0;
+    }
+    .header-h{
+        font-size: 56px;
+        font-weight: 700;
+        width: 640px;
+        height: 210px;
+        margin: 24px 0px;
+        margin-bottom: 24px;
+    }
+
+    .h1-color-01{
+        color: rgb(254, 163, 1);
+    }
+    .h1-color-02{
+        color: rgb(1, 172, 253);
+    }
+
+    .hrader-p{
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 24px;
+    }
+
+    .header-btn{
+        color: rgb(255, 255, 255);
+        font-family: "Quicksand", serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0%;
+        border-radius: 12px;
+        background: rgb(17, 17, 17);
+        width: 197px;
+        height: 50px;
+        padding: 7px;
+        cursor: pointer;
+        border: none;
+    }
+
+    /* hr{
+        border: 0.5px solid rgb(254, 163, 1);
+    } */
+
+
