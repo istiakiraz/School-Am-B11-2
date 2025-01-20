@@ -145,16 +145,21 @@
     }
 
     @media screen and (min-width: 576px){
-        .demo{
+        .hamburger-menu{
             display: none;
             }
+        .nav-bar-hr{
+            display: none;
+        }    
         }
 
 
     @media screen and (max-width: 576px) {
         
         header{
-            max-width: 358px;
+            max-width: 575px;
+            margin: 0 auto;
+            border-bottom: none;
         }
         nav{
             margin-bottom: 12px;
@@ -162,17 +167,16 @@
         
         .nav-logo{
             margin-top: 12px;
-            margin-left: 0;
-            margin-right: 16px;
-            width: 390px;
-            height: 46px;
+            margin: 0 auto;
+            width: 430px;
             display: flex;
-            gap: 300px;
+            gap: 320px;
             align-items: center;
+            
              
         }
         .icon-large {
-            font-size: 40px; 
+            font-size: 35px; 
           }
         nav> div> h2 {
             display: none;
@@ -183,11 +187,41 @@
         nav> button {
             display: none;
         }
+        .nav-bar-hr{
+            border: 0.5px solid rgb(254, 163, 1);
+        }
 
         .header-section{
-            flex-direction: column-reverse;
-            align-items: center;
+            max-width: 357px;
             margin: 0 auto;
+            margin-top: 50px;
+            flex-direction: column-reverse;
+            justify-items: center;
+            
+        }
+        .header-conti{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header-h{
+            max-width: 430px;
+            margin-top: -25px;
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: -85px;
+            
+        }
+        .hrader-p{
+            text-align: center;
+            font-size: 14px;
+            max-width: 430px;
+        }
+        .header-btn{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
         }
        
 
