@@ -144,6 +144,138 @@
         width: 100%;
     }
 
+    /* main sections style*/
+
+    /* Standard Curriculum section */
+
+    .bg-img{
+        padding: 60px 0px 60px;
+        background-image: url(../assets/bg.png);
+        background-repeat: no-repeat;
+        background-position: -30px -5px ;
+        border-bottom: 2px dashed  rgb(218, 216, 216);
+    }
+
+    .Standard-conti{
+        max-width: 1160px;
+        margin: auto;
+    }
+
+    .Standard-h{
+        font-size: 46px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .Standard-section-box{
+        display: flex;
+        justify-content: space-between;
+        gap: 29px;
+    }
+
+    .Standard-box-1{
+        width: 367.8px;
+        height: 476.78px;
+        box-sizing: border-box;
+        border: 0.94px solid rgb(222, 245, 255);
+        border-radius: 18.86px;
+        box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+        background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 65px 40px 58px 40px;
+        text-align: center;
+
+        }
+
+        .Standard-box-2{
+            width: 367.8px;
+            height: 476.78px;
+            box-sizing: border-box;
+            border: 0.94px solid rgb(255, 244, 220);
+            border-radius: 18.86px;
+            box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+            background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 65px 40px 58px 40px;
+            text-align: center;
+    
+            }
+
+            .Standard-box-3{
+                width: 367.8px;
+                height: 476.78px;
+                box-sizing: border-box;
+                border: 0.94px solid rgb(242, 232, 255);
+                border-radius: 18.86px;
+                box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+                background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 65px 40px 58px 40px;
+                text-align: center;
+        
+                }
+
+        .Standard-box-h{
+            font-size: 24.52px;
+            font-weight: 700;
+            color: rgb(32, 32, 32);
+
+        }
+        .Standard-box-p{
+            font-size: 15.09px;
+            font-weight: 500;
+            color: rgb(128, 128, 128)
+            
+        }
+
+        .Standard-a-1{
+            color: rgb(100, 200, 255);
+        }
+        .Standard-a-2{
+            color: rgb(240, 170, 0);
+        }
+        .Standard-a-3{
+            color: rgb(135, 0, 255);
+        }
+
+        .Standard-btn-section{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 80px;
+            gap: 10px;
+        }
+
+        .Standard-btn{
+            font-size: 24px;
+            font-weight: 900;
+            color: rgb(255, 255, 255);
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+            background: rgb(254, 163, 1);
+            border: none;
+            font-family: "Quicksand", serif;
+            cursor: pointer;
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
     @media screen and (min-width: 577px){
         .hamburger-menu{
             display: none;
