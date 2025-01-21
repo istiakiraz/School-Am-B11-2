@@ -361,7 +361,36 @@
             justify-content: center;
             align-items: center;
         }
+
+        /* Standard Curriculum section */
        
-        
+        .bg-img{
+            border-bottom: none;
+        }
+        .Standard-h{
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 26px;
+        }
+        .Standard-section-box{
+            flex-direction: column;
+            align-items: center;
+        }
+        .Standard-btn-section{
+            display: none;
+        }
+
+        .Standard-box-1, .Standard-box-2, .Standard-box-3 {
+            padding: 36px 28px 36px 28px;
+            width: 380px;
+            height: 324.47px;
+        }
+        .Standard-box-h{
+            font-size: 16.6px;
+        }
+        .Standard-box-p{
+            font-size: 10.22px;
+        }
+
     }
 
