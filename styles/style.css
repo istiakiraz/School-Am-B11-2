@@ -389,7 +389,6 @@
            padding: 7px;
            cursor: pointer;
            border: none;
-           
         }
 
 
@@ -399,7 +398,7 @@
 
 
 
-
+/* media query */
 
 
     @media screen and (min-width: 577px){
@@ -494,7 +493,7 @@
             border-bottom: none;
         }
         .Standard-h{
-            margin-top: 25px;
+            margin-top: 5px;
             margin-bottom: 20px;
             font-size: 26px;
         }
@@ -521,6 +520,76 @@
         .Standard-box-p{
             font-size: 13px;
         }
+
+        /* Our Stories */
+
+        .our-h{
+            margin-top: -80px;
+        }
+
+        .our-box-1{
+            display: none;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .our-box-2{
+            width: 200.09px;
+            height: 188.59px;
+            border-radius: 9.53px;
+            background: rgb(255, 255, 255);
+        }
+        .our-mini-box{
+            display: grid;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .our-box-2 h4{
+            text-align: left;
+            font-size: 9.13px;
+            font-weight: 700;
+            margin-left: 25px;
+        }
+
+        .our-box-img{
+            width: 200.09px;
+            height: 130.39px;
+            border-radius: 9.53px 9.53px 0px 0px;
+            background: url(),rgb(255, 255, 255);
+        }
+
+        .our-box-2-btn{
+            font-size: 9.13px;
+            font-weight: 500;
+            color: rgb(255, 255, 255);
+            width: 103.91px;
+            height: 22.83px;
+            border: none;
+            border-radius: 28.54px;
+            background: rgb(149, 178, 38)
+        }
+
+        .our-section-btn{
+            margin-top: 20PX;
+            color: rgb(255, 255, 255);
+            font-family: "Quicksand", serif;
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 30px;
+            letter-spacing: 0%;
+            border-radius: 12px;
+            background: rgb(17, 17, 17);
+            width: 150px;
+            height: 40px;
+            padding: 5px;
+            cursor: pointer;
+            border: none;
+         }
+
+
+
+
+
+
 
     }
 
