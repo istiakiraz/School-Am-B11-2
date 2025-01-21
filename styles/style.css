@@ -270,6 +270,9 @@
             cursor: pointer;
             
         }
+        .Standard-btn:hover{
+            background-color: #e75d5d;
+        }
 
         /* Our Stories section styles */
 
@@ -600,6 +603,10 @@
         }
 
         /* Our Stories */
+
+        .our-bg{
+            max-width: 90%;
+        }
 
         .our-h{
             margin-top: -80px;
