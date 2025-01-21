@@ -266,6 +266,132 @@
             
         }
 
+        /* Our Stories section styles */
+
+        .our-bg{
+            padding: 60px 0px 60px;
+            background-image: url(../assets/bg.png), url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);;
+            background-repeat: repeat, no-repeat;
+            background-position: -30px -5px;
+
+        }
+
+        .our-section-conti{
+            max-width: 1160px;
+            margin: auto;
+            text-align: center;
+        }
+
+
+        .our-section-box{
+            display: flex;
+            gap: 19px;
+        }
+
+        .our-mini-box{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 19px;
+        }
+
+        .our-box-1{
+            box-sizing: border-box;
+            width: 540.27px;
+            height: 630.52px;
+            border-radius: 16px;
+            background: rgb(255, 255, 255);
+        }
+
+        .btn-div{
+            margin-left: -288px;
+            margin-top: -27px;
+        }
+        .our-box-1-btn{
+            font-size: 15.34px;
+            font-weight: 500;
+            color: rgb(255, 255, 255);
+            width: 174.51px;
+            height: 47.93px;
+            border: none;
+            border-radius: 47.93px;
+            background: rgb(60, 216, 232);
+
+        }
+
+       
+        .our-box-1-h{
+            text-align: left;
+            font-size: 24px;
+            font-weight: 700;
+            width: 402.49px;
+            margin-left: 38.35PX;
+        }
+        
+        .our-box-1-p{
+            margin-top: 51.77px;
+            font-size: 15.34px;
+            font-weight: 500;
+            width: 433.06px;
+            color: rgb(102, 102, 102);
+            text-align: left;
+            margin-left: 38.35PX;
+
+        }
+
+        .our-box-2{
+            width: 290.69px;
+            height: 301.61px;
+            border-radius: 16px;
+            background: rgb(255, 255, 255);
+        }
+        .our-box-2 h4{
+            text-align: left;
+            font-size: 15.34px;
+            font-weight: 700;
+            margin-left: 37.91px;
+        }
+
+        .our-box-2-btn{
+            font-size: 15.34px;
+            font-weight: 500;
+            color: rgb(255, 255, 255);
+            width: 174.51px;
+            height: 38.35px;
+            border: none;
+            border-radius: 47.93px;
+            background: rgb(149, 178, 38)
+            
+        }
+        .mini-box-btn{
+            margin-top: -22px;
+            margin-left: -60px;
+        }
+
+        .our-box-img{
+            border-radius: 16px 16px 0px 0px;
+            background: url(),rgb(217, 217, 217);
+        }
+        .box-3{
+            background: rgb(93, 88, 240)
+        }
+        .our-section-btn{
+           margin-top: 80PX;
+           color: rgb(255, 255, 255);
+           font-family: "Quicksand", serif;
+           font-size: 20px;
+           font-weight: 700;
+           line-height: 30px;
+           letter-spacing: 0%;
+           border-radius: 12px;
+           background: rgb(17, 17, 17);
+           width: 197px;
+           height: 50px;
+           padding: 7px;
+           cursor: pointer;
+           border: none;
+           
+        }
+
 
 
 
