@@ -666,6 +666,7 @@
          /* footer section */
 
          footer{
+            max-width: 554px;
             height: 720px;
 
          }
