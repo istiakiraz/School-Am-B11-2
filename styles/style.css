@@ -368,7 +368,7 @@
             border-bottom: none;
         }
         .Standard-h{
-            margin-top: 40px;
+            margin-top: 25px;
             margin-bottom: 20px;
             font-size: 26px;
         }
@@ -385,11 +385,15 @@
             width: 380px;
             height: 324.47px;
         }
+        .Standard-img{
+            width: 95px;
+            height: 98px;
+        }
         .Standard-box-h{
-            font-size: 16.6px;
+            font-size: 20px;
         }
         .Standard-box-p{
-            font-size: 10.22px;
+            font-size: 13px;
         }
 
     }
