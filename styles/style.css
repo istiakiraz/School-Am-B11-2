@@ -241,12 +241,15 @@
 
         .Standard-a-1{
             color: rgb(100, 200, 255);
+            font-weight: 700;
         }
         .Standard-a-2{
             color: rgb(240, 170, 0);
+            font-weight: 700;
         }
         .Standard-a-3{
             color: rgb(135, 0, 255);
+            font-weight: 700;
         }
 
         .Standard-btn-section{
